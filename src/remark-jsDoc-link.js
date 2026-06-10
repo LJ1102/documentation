@@ -48,7 +48,7 @@ text[123] = {
   }
 };
 
-const linkRegExp = /\{@link\s+(.+?)(?:[\s|](.*?))?\}/;
+const linkRegExp = /\{@link(?:code|plain)?\s+(.+?)(?:[\s|](.*?))?\}/;
 const tutorialRegExp = /\{@tutorial\s+(.+?)(?:[\s|](.*?))?\}/;
 
 /**
